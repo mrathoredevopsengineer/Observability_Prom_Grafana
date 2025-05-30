@@ -1,6 +1,7 @@
 How To install Promethus and grafana and Monitor Kubernetes Cluster
 
-Step-1 Follow https://github.com/mrathoredevopsengineer/kubestarter.git to Install Kubernetes Cluster (Master & Worker Node) on VM.
+Step-1
+Follow https://github.com/mrathoredevopsengineer/kubestarter.git to Install Kubernetes Cluster (Master & Worker Node) on VM.
 Step-2
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 Step-3
