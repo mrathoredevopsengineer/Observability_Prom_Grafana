@@ -8,7 +8,9 @@ curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 Step-3
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+
 helm repo add grafana https://grafana.github.io/helm-charts
+
 helm repo update
 
 Step-4
