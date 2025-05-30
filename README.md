@@ -21,6 +21,12 @@ kubectl expose service prometheus-kube-prometheus-prometheus --type=NodePort --t
 Step-9
 kubectl expose service prometheus-grafana --type=NodePort --target-port=3000 --name=grafana-expose -n monitoring
 
+Get Grafana 'admin' user password by running:
+  kubectl --namespace monitoring get secrets prometheus-grafana -o jsonpath="{.data.admin-password}" | base64 -d ; echo
+
+
+  Import Dashboard ID for Node Exporter Full in Grafana – 1860 (for CPU, Memory, Disk)
+
 
 
 
